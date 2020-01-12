@@ -19,6 +19,6 @@ from random import choice
 N = 7*[None]
 for i in range ( 7 ) : 
     N[i] = choice(deck)
-M = [choice(deck) for i in range(7) ]
+M = [choice(deck) for i in range(7)]
 print (N[i].rank)
 print (M)
